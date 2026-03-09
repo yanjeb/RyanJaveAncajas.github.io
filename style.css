@@ -1,5 +1,18 @@
 /*Home,Gallery,profile(sidebar,header)*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+text-decoration: none;
+color: white;
+}
+body {
+display: flex;
+font-family: Arial, sans-serif;
 
+    
 .sidebar{
     position:fixed;
     width:200px;
@@ -134,5 +147,6 @@ font-weight:bold;
 .mirror{
     transform: scaleX(-1);
 }
+
 
 
